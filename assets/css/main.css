@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   /* Enlaza la tipografia Open Sans */
 }
 /*Contenedor Flexbox*/
@@ -40,6 +40,10 @@ body {
 .flex-container .logo{
 	width: 70px;
 	height: 70px;
+}
+.texto{
+	padding-right: 80px;
+	padding-left: 80px;
 }
 #home{
 	height: 600px;
@@ -90,6 +94,18 @@ body {
 	text-align: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
+}
+.compu{
+	width: 900px;
+	height: 900px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+#images.flex-container{
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 30px;
 }
 footer{
   text-align: center;
